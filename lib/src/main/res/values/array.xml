@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--6.15 一次性支付改付费-->
+    <string-array name="pay_type">
+        <item>不付费</item>
+        <item>随房租支付</item>
+        <item>一次性付费</item>
+    </string-array>
+    <string-array name="cost_type">
+        <item>不付费</item>
+        <item>首次房租一次性扣除</item>
+        <item>第2次房租一次性房租扣除</item>
+    </string-array>
+
+    <string-array name="works_name">
+        <item>查未租</item>
+        <item>查房源</item>
+        <item>查业绩</item>
+        <item>查退房</item>
+        <item>写申请</item>
+        <item>整租</item>
+        <item>合租</item>
+        <item>集中</item>
+        <item>商业</item>
+        <item>财务</item>
+        <item>店面设置</item>
+        <item>员工授权</item>
+        <item>统计报表</item>
+        <item>审批</item>
+        <item>更多</item>
+    </string-array>
+    <integer-array name="works_id">
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="increase_title">
+        <item>第一年租金</item>
+        <item>第二年递增</item>
+        <item>第三年递增</item>
+        <item>第四年递增</item>
+        <item>第五年递增</item>
+        <item>第六年递增</item>
+        <item>第七年递增</item>
+        <item>第八年递增</item>
+        <item>第九年递增</item>
+        <item>第十年递增</item>
+        <item>第十一年递增</item>
+        <item>第十二年递增</item>
+        <item>第十三年递增</item>
+        <item>第十四年递增</item>
+        <item>第十五年递增</item>
+        <item>第十六年递增</item>
+        <item>第十七年递增</item>
+        <item>第十八年递增</item>
+        <item>第十九年递增</item>
+        <item>第二十年递增</item>
+        <item>第二十一年递增</item>
+        <item>第二十二年递增</item>
+        <item>第二十三年递增</item>
+        <item>第二十四年递增</item>
+        <item>第二十五年递增</item>
+        <item>第二十六年递增</item>
+        <item>第二十七年递增</item>
+        <item>第二十八年递增</item>
+        <item>第二十九年递增</item>
+        <item>第三十年递增</item>
+        <item>第三十一年递增</item>
+        <item>第三十二年递增</item>
+    </string-array>
+    <string-array name="free_title">
+        <item>第一年免租</item>
+        <item>第二年免租</item>
+        <item>第三年免租</item>
+        <item>第四年免租</item>
+        <item>第五年免租</item>
+        <item>第六年免租</item>
+        <item>第七年免租</item>
+        <item>第八年免租</item>
+        <item>第九年免租</item>
+        <item>第十年免租</item>
+        <item>第十一年免租</item>
+        <item>第十二年免租</item>
+        <item>第十三年免租</item>
+        <item>第十四年免租</item>
+        <item>第十五年免租</item>
+        <item>第十六年免租</item>
+        <item>第十七年免租</item>
+        <item>第十八年免租</item>
+        <item>第十九年免租</item>
+        <item>第二十年免租</item>
+        <item>第二十一年免租</item>
+        <item>第二十二年免租</item>
+        <item>第二十三年免租</item>
+        <item>第二十四年免租</item>
+        <item>第二十五年免租</item>
+        <item>第二十六年免租</item>
+        <item>第二十七年免租</item>
+        <item>第二十八年免租</item>
+        <item>第二十九年免租</item>
+        <item>第三十年免租</item>
+        <item>第三十一年免租</item>
+        <item>第三十二年免租</item>
+    </string-array>
+
+
+    <string-array name="year_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="month_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="day_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+
+    <integer-array name="landlord_button_code">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="landlord_button_name">
+        <item>添加定金</item>
+        <item>添加转租</item>
+        <item>设为待退</item>
+        <item>设为冻结</item>
+        <item>租客退房</item>
+        <item>租客续约</item>
+        <item>租客转租</item>
+        <item>登记租客</item>
+        <item>设为代转</item>
+    </string-array>
+
+    <string-array name="landlord_list_button_name">
+        <item>修改房东</item>
+        <item>完善房东</item>
+        <item>房东续约</item>
+        <item>房东延期</item>
+        <item>房东退房</item>
+        <item>物品增减</item>
+        <item>设为冻结</item>
+        <item>设为装修中</item>
+    </string-array>
+    <string-array name="landlord_list_button_name_jz">
+        <item>修改房东</item>
+        <item>完善房东</item>
+        <item>房东续约</item>
+        <item>房东延期</item>
+        <item>房东退房</item>
+        <item>设为冻结</item>
+        <!--        <item>添加维修</item>-->
+        <item>公区维修</item>
+    </string-array>
+    <string-array name="landlord_list_button_name_sy">
+        <item>修改房东</item>
+        <item>完善房东</item>
+        <item>房东续约</item>
+        <item>房东延期</item>
+        <item>房东退房</item>
+        <item>设为冻结</item>
+        <!--        <item>添加维修</item>-->
+        <!--        <item>公区维修</item>-->
+    </string-array>
+
+    <string-array name="hz_landlord_list_button_name">
+        <item>修改房东</item>
+        <item>完善房东</item>
+        <item>房东续约</item>
+        <item>房东延期</item>
+        <item>房东退房</item>
+        <item>物品增减</item>
+        <item>设为冻结</item>
+        <item>设为装修中</item>
+        <item>公区维修</item>
+    </string-array>
+
+    <string-array name="hz_landlord_list_button_nameb">
+        <item>物品增减</item>
+        <item>修改房东</item>
+        <item>完善房东</item>
+        <item>房东续约</item>
+        <item>房东延期</item>
+        <item>房东退房</item>
+        <item>设为冻结</item>
+        <item>设为装修中</item>
+        <item>公区维修</item>
+    </string-array>
+
+    <string-array name="landlord_list_button_code_jz">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <!--        <item>7</item>-->
+        <item>9</item>
+    </string-array>
+
+    <string-array name="landlord_list_button_code_sy">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <!--        <item>7</item>-->
+        <!--        <item>9</item>-->
+    </string-array>
+
+    <string-array name="landlord_list_button_code">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+
+    <string-array name="qtg_landlord_list_button_code">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <item>7</item>
+        <!--        <item>8 设为装修中</item>-->
+        <!--        <item>9 </item>-->
+                <item>10</item>
+    </string-array>
+
+
+    <string-array name="qtg_landlord_list_button_name">
+        <item>修改房东</item> <!--  2-->
+        <item>完善房东</item><!--3-->
+        <item>房东续约</item><!--4-->
+        <item>房东延期</item><!--5-->
+        <item>房东退房</item><!--6-->
+        <item>物品增减</item><!--1-->
+        <item>设为冻结</item><!--7-->
+        <!--        <item>8 设为装修中</item>-->
+        <!--        <item>公区维修</item>9-->
+                <item>添加跟进</item><!--10-->
+    </string-array>
+
+    <string-array name="hz_landlord_list_button_code">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="landroom_list_button_code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="landroom_button_code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="landroom_button_name">
+        <item>添加定金</item>
+        <item>添加转租</item>
+        <item>添加定价</item>
+        <item>设为待退</item>
+        <item>设为冻结</item>
+        <item>租客退房</item>
+        <item>租客续约</item>
+        <item>租客转租</item>
+        <item>完善租客</item>
+        <item>修改租客</item>
+        <item>租客换房</item>
+        <item>添加跟进</item>
+        <item>优惠活动</item>
+        <item>录入带看</item>
+        <item>租客延期</item>
+        <item>设为待转</item>
+        <item>添加底价</item>
+    </string-array>
+
+
+    <string-array name="landroom_dialog_button_code">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="landroom_dialog_button_name">
+        <item>完善租客</item>
+        <item>修改租客</item>
+        <item>租客退房</item>
+        <item>租客换房</item>
+        <item>租客续租</item>
+        <item>租客延期</item>
+        <item>租客转租</item>
+        <item>添加跟进</item>
+        <item>代金卷</item>
+        <item>录入带看</item>
+        <item>添加底价</item>
+    </string-array>
+
+    <string-array name="tenant_pay_type">
+        <item>不付费</item>
+        <item>随房租支付</item>
+        <item>一次性支付</item>
+    </string-array>
+
+    <string-array name="words_letter">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+</resources>

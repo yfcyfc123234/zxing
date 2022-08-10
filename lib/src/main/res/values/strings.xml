@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">趣管房</string>
+    <string name="forget_pwd">忘记密码?</string>
+    <string name="please_input_pwd">请输入登录密码</string>
+    <string name="please_input_phone">请输入手机号码</string>
+    <string name="other_login">其他方式登录</string>
+    <string name="login_slog">我已阅读并同意《用户服务协议》</string>
+    <string name="login_slog_zc"> 《隐私权政策》</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="getsmscode">获取验证码</string>
+    <string name="inputsms">请输入验证码</string>
+    <string name="confirm_new_pwd">确认新密码</string>
+    <string name="forget_et_note">新密码必须为8位以上，字母加数字的组合</string>
+    <string name="punch_tv2">轻触指纹键验证手机指纹</string>
+    <string name="upload_pic_tips">最多上传%s张图片，图片大小不超过5M。</string>
+    <string name="register_name_digits">
+
+  ._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ
+
+</string>
+    <string name="register_name_digits_one">
+      ~!@#$%^*()_+{}|:?.,;][=-`0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+</string>
+
+    <string name="auth_tip">无操作权限，请联系管理员</string>
+
+    <string-array name="houseTypeEvaluationOption">
+        <item>方正</item>
+        <item>客厅异形</item>
+        <item>卧室异形</item>
+    </string-array>
+    <string-array name="daylightingOption">
+        <item>通透</item>
+        <item>整体采光不好</item>
+        <item>客厅采光不好</item>
+        <item>卧室采光不好</item>
+        <item>主卧采光不好</item>
+        <item>次卧采光不好</item>
+    </string-array>
+    <string-array name="noiseOption">
+        <item>安静</item>
+        <item>噪音大</item>
+        <item>临正街</item>
+        <item>临闹事</item>
+    </string-array>
+    <string-array name="busOption">
+        <item>步行5分钟</item>
+        <item>步行10分钟</item>
+        <item>步行15分钟</item>
+        <item>步行20分钟</item>
+        <item>步行20分钟以上</item>
+    </string-array>
+    <string-array name="subwayOption">
+        <item>步行5分钟</item>
+        <item>步行10分钟</item>
+        <item>步行15分钟</item>
+        <item>步行20分钟</item>
+        <item>步行20分钟以上</item>
+    </string-array>
+    <string-array name="fitSaleTypeOption">
+        <item>整租</item>
+        <item>合租</item>
+        <item>办公</item>
+    </string-array>
+    <string-array name="rentCrowdOption">
+        <item>不限</item>
+        <item>上班</item>
+        <item>学生</item>
+        <item>住家</item>
+        <item>娱乐行业</item>
+    </string-array>
+    <string-array name="houseStatusTypeOption">
+        <item>未租</item>
+        <item>房东已自租</item>
+        <item>已售</item>
+        <item>暂不租</item>
+        <item>未接电话</item>
+        <item>电话打不通</item>
+        <item>已收房成交</item>
+        <item>居间成交</item>
+    </string-array>
+    <string-array name="housePhoneStatusTypeOption">
+        <item>未租</item>
+        <item>房东已自租</item>
+        <item>已售</item>
+        <item>暂不租</item>
+        <item>未接电话</item>
+        <item>电话打不通</item>
+    </string-array>
+</resources>

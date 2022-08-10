@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sxCity">#F7FAFA</color>
+    <color name="color_page_bg">#50000000</color>
+    <color name="color_text_gray">#a5beb9b9</color>
+    <color name="color_orange">#FF4081</color>
+    <color name="dark_blue">#1A3D9D</color>
+    <color name="gold">#e5e179</color>
+    <color name="green">#00C7AC</color>
+    <color name="heihei">#2D3245</color>
+    <color name="heihei2">#152B46</color>
+    <color name="heihei3">#343C59</color>
+    <color name="color_5b9af6">#5B9AF6</color>
+    <color name="color_00332E">#00332E</color>
+    <color name="color_f5f4f7">#f5f4f7</color>
+    <color name="color_00C6AC">#00C6AC</color>
+    <color name="zsred">#FF6666</color>
+    <color name="radioTxt">#526663</color>
+    <color name="lookPhBlackColor">#301F1F1F</color>
+    <color name="low_green">#A3CCC7</color>
+    <color name="deep_green">#7A9995</color>
+    <color name="blue_text">#0a85c6</color>
+    <color name="blue_btn_bg">#5A9BF4</color>
+    <color name="gray">#88888888</color>
+    <color name="nor_gray">#efeff5</color>
+    <color name="bg_light_black">#33000000</color>
+    <color name="line">#B2B2B2</color>
+    <color name="black2">#3f000000</color>
+    <color name="c_90black">#90000000</color>
+    <color name="c_10white">#10FFFFFF</color>
+    <color name="c_50white">#50FFFFFF</color>
+    <color name="c_20white">#20FFFFFF</color>
+    <color name="c_50black">#50000000</color>
+    <color name="c_20black">#20000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="color_fa">#fafafa</color>
+    <color name="purple">#6959CD</color>
+    <color name="text_color_gray">#777777</color>
+    <color name="text_color_black">#333333</color>
+    <color name="text_color_low_gray">#9d9d9d</color>
+    <color name="main_text_color_black">#666666</color>
+    <color name="main_weather_text_color_black">#5c6774</color>
+    <color name="main_weather_text_color_black2">#a6a6a6</color>
+    <color name="main_weather_text_color_black3">#4b4b4b</color>
+    <color name="color_A0A0A0">#A0A0A0</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_F2F9F7c">#F2F9F7</color>
+
+    <color name="main_search1">#1abc9c</color>
+    <color name="main_search2">#2f655a</color>
+    <color name="main_search3">#3c94de</color>
+    <color name="main_search4">#6b7aba</color>
+    <color name="main_search5">#38b059</color>
+    <color name="main_search6">#95a5a6</color>
+
+    <color name="line_style_gray">#E6E6E6</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_666666">#666666</color>
+    <color name="select_text_color">#00332C</color>
+    <color name="sc_new_text_color">#F5AB44</color>
+    <color name="sc_new_text_color_tv">#FFF8EF</color>
+    <color name="unselect_text_color">#526663</color>
+    <color name="color_32374c">#32374c</color>
+    <color name="color_C4CCF4">#C4CCF4</color>
+    <color name="color_E0E1E5">#E0E1E5</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_F5AB44">@color/sc_new_text_color</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_454D4B">#454D4B</color>
+    <color name="color_E3E5E5">#E3E5E5</color>
+    <color name="color_FF6767">#FF6767</color>
+    <color name="color_FEFFFF">#FEFFFF</color>
+    <color name="color_F4F7F8">#F4F7F8</color>
+    <color name="color_BBBBBB">#BBBBBB</color>
+    <color name="color_FF993F">#FF993F</color>
+    <color name="color_FFF3E8">#FFF3E8</color>
+    <color name="color_F8FAFD">#F8FAFD</color>
+    <color name="color_5A9BF4">#5A9BF4</color>
+    <color name="color_4797F1">#4797F1</color>
+    <color name="color_B5B5B5">#B5B5B5</color>
+
+    <color name="e6">#E6E6E6</color>
+    <color name="e5">#E5E5E5</color>
+    <color name="e8">#E8E8E8</color>
+    <color name="h666">#666666</color>
+    <color name="hdbdb">#DBDBDB</color>
+    <color name="f9">#F9F9F9</color>
+    <color name="f7">#f7f7f7</color>
+    <color name="f2">#f2f2f2</color>
+    <color name="f5">#f5f5f5</color>
+    <color name="f5qian">#90f5f5f5</color>
+    <color name="f0">#f0f0f0</color>
+    <color name="ce">#cecece</color>
+    <color name="color_71a8e8">#71a8e8</color>
+    <color name="color_3985ee">#3985EE</color>
+    <color name="color_0066B3">#0066B3</color>
+    <color name="hint_text_color">#5000332B</color>
+    <color name="line_divide">#E3E6E5</color>
+    <color name="e3e6e5">#E3E6E5</color>
+
+    <color name="custom_background" />
+    <color name="irregular_ll_background">#FFF6F0</color>
+    <color name="irregular_text_color">#FF6767</color>
+    <color name="irregular_text_colorb">#12FF6767</color>
+    <color name="irregular_item_text_color">#5C6665</color>
+    <color name="irregular_item_o_text_color">#00332B</color>
+    <color name="fragment_tenant_deposite_color">#5C6664</color>
+
+    <color name="land_room_list_tv">#F2F5F4</color>
+    <color name="land_room_list_bg">#F2FCFB</color>
+    <color name="land_room_list_bg_t">#005549</color>
+
+    <color name="check_out_tenant_info_bg_t">#DEE0E0</color>
+    <color name="land_room_to_be_tv">#00332E</color>
+    <color name="land_room_to_be_stroke_color">#D6D6D6</color>
+    <color name="translucent_background">#80000000</color>
+
+    <color name="tenant_price_ty_tv">#8A9997</color>
+
+    <color name="dec_thz_bg">#F5F7F7</color>
+    <color name="dec_thz_bg_o">#D6F6F2</color>
+
+    <color name="tab_text_color">#293332</color>
+
+    <color name="housing_bg_c">#E0EAFF</color>
+    <color name="housing_tv_c">#0746DF</color>
+    <color name="housing_bg_d_c">#F7F7F7</color>
+    <color name="housing_tv_d_c">#5E5E5E</color>
+
+    <color name="increase_tv_color">#293331</color>
+    <color name="dec_zdxx_fzxq">#8A9996</color>
+    <color name="dialog_bantouming">#33000000</color>
+    <color name="title_bg">#38C2BB</color>
+    <color name="blue_tv">#71A8E8</color>
+
+    <color name="qr_custom_possible_result_points">#903A89CF</color>
+    <color name="qr_custom_result_view">#b0000000</color>
+    <color name="qr_custom_viewfinder_laser">#1976D2</color>
+    <color name="qr_custom_viewfinder_mask">#60000000</color>
+    <color name="qr_possible_result_points">#c0ffbd21</color>
+    <color name="qr_result_view">#b0000000</color>
+    <color name="qr_status_text">#ffffffff</color>
+    <color name="qr_transparent">#00000000</color>
+    <color name="qr_viewfinder_laser">#ffcc0000</color>
+    <color name="qr_viewfinder_mask">#60000000</color>
+</resources>

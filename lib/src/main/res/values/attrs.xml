@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--水平滑动Tab自定义属性-->
+    <declare-styleable name="PullToRefreshLayout">
+        <attr name="view_error" format="reference" />
+        <attr name="view_empty" format="reference" />
+        <attr name="view_loading" format="reference" />
+    </declare-styleable>
+
+    <!--下拉 上拉刷新控件-->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <!--下方 指示线条器颜色-->
+        <attr name="pstsIndicatorColor" format="color" />
+        <!--下方 横线颜色-->
+        <attr name="pstsUnderlineColor" format="color" />
+        <!--水平方向分割线颜色-->
+        <attr name="pstsDividerColor" format="color" />
+        <!--标题默认颜色-->
+        <attr name="pstsTextDefaultColor" format="color" />
+        <!--标题选中颜色-->
+        <attr name="pstsTextSelectedColor" format="color" />
+        <!--字体大小-->
+        <attr name="pstsTextSize" format="dimension" />
+        <!--是否加粗-->
+        <attr name="pstsBold" format="boolean" />
+        <!--是否显示顶部横线-->
+        <attr name="pstsHasTopLine" format="boolean" />
+        <!--是否显示底部横线-->
+        <attr name="pstsHasBottomLine" format="boolean" />
+
+        <attr name="pstsDividerPadding" format="dimension" />
+        <!--指示器高度-->
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPaddingTopBottom" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <!--所有文字是否转大写-->
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsScaleZoomMax" format="float" />
+        <!--滑动是是否平滑滚动-->
+        <attr name="pstsSmoothScrollWhenClickTab" format="boolean" />
+    </declare-styleable>
+
+
+    <!--自定义加载框-->
+    <declare-styleable name="LVCircularRing">
+        <attr name="bgColor" format="color" />
+        <attr name="barColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ShadowContainer">
+        <attr name="containerShadowColor" format="color" />
+        <attr name="containerShadowRadius" format="dimension" />
+        <attr name="containerDeltaLength" format="dimension" />
+        <attr name="containerCornerRadius" format="dimension" />
+        <attr name="deltaX" format="dimension" />
+        <attr name="deltaY" format="dimension" />
+        <attr name="enable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ZxingViewFinderView">
+        <attr name="scannerBoundColor" format="color" />
+        <attr name="scannerBoundWidth" format="dimension" />
+        <attr name="scannerBoundCornerColor" format="color" />
+        <attr name="scannerBoundCornerWith" format="dimension" />
+        <attr name="scannerBoundCornerHeight" format="dimension" />
+        <attr name="scannerLaserResId" format="integer" />
+        <attr name="scannerTipText" format="dimension" />
+        <attr name="scannerTipTextSize" format="dimension" />
+        <attr name="scannerTipTextColor" format="color" />
+        <attr name="scannerTipTextMargin" format="dimension" />
+        <attr name="scannerTipTextGravity" format="reference" />
+
+    </declare-styleable>
+
+
+<!--    自定义属性名,定义公共属性-->
+    <attr name="iNum" format="float" />
+    <attr name="iColor" format="color" />
+    <attr name="zNum" format="float" />
+    <attr name="zColor" format="color" />
+    <attr name="oNum" format="float" />
+    <attr name="oColor" format="color" />
+    <attr name="tNum" format="float" />
+    <attr name="tColor" format="color" />
+    <attr name="Inclination" format="integer"/>
+    <attr name="iTextColor" format="color" />
+    <attr name="zTextColor" format="color" />
+    <attr name="TextSize" format="dimension" />
+    <attr name="oTextColor" format="color" />
+    <attr name="tTextColor" format="color" />
+
+    <declare-styleable name="OptionRowView">
+        <attr name="title" format="string"/>
+        <attr name="options" format="reference"/>
+        <attr name="showMust" format="boolean"/>
+    </declare-styleable>
+
+<!--    自定义控件的主题样式-->
+    <declare-styleable name="MyPre">
+        <attr name="iNum" />
+        <attr name="iColor" />
+        <attr name="zNum" />
+        <attr name="zColor" />
+        <attr name="oNum" />
+        <attr name="oColor" />
+        <attr name="tNum" />
+        <attr name="tColor" />
+        <attr name="Inclination" />
+        <attr name="iTextColor" />
+        <attr name="zTextColor" />
+        <attr name="TextSize" />
+        <attr name="oTextColor" />
+        <attr name="tTextColor" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightRecyclerView">
+        <attr name="maxHeight" format="dimension"/>
+    </declare-styleable>
+</resources>

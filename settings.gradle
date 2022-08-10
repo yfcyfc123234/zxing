@@ -18,3 +18,4 @@ rootProject.name = "zxing"
 include ':android'
 include ':android-core'
 include ':android-integration'
+include ':lib'
