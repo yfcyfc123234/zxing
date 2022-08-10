@@ -97,7 +97,6 @@ open class PageUtil<T>(
                 recyclerView.layoutManager = LinearLayoutManager(context)
             }
             setRecyclerEmptyView(handleEmptyView(emptyView))
-            adapter.recyclerView = recyclerView
             recyclerView.adapter = adapter
             val loadMoreModule = adapter.loadMoreModule
             loadMoreModule.isEnableLoadMore = isEnableLoadMore
