@@ -2,6 +2,7 @@ package com.google.zxing.client.android;
 
 import android.app.Application;
 import android.content.Context;
+import android.support.multidex.MultiDex;
 
 /**
  * @author yfc

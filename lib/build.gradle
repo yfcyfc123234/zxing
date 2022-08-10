@@ -59,8 +59,8 @@ dependencies {
     api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.3"
 
     api "androidx.appcompat:appcompat:1.4.2"
-    api "androidx.activity:activity:1.3.1"
-    api "androidx.fragment:fragment:1.3.1"
+    api "androidx.activity:activity:1.4.0"
+    api "androidx.fragment:fragment:1.4.1"
     api "androidx.constraintlayout:constraintlayout:2.1.4"
     api "androidx.recyclerview:recyclerview:1.2.1"
     api "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
@@ -107,7 +107,7 @@ dependencies {
     api "io.coil-kt:coil:2.1.0"
     // https://github.com/square/picasso
     // A powerful image downloading and caching library for Android
-    api "com.squareup.picasso:picasso:2.8"
+    api "com.squareup.picasso:picasso:2.71828"
 
     // https://github.com/promeG/TinyPinyin
     // 适用于Java和Android的快速、低内存占用的汉字转拼音库。
@@ -130,7 +130,7 @@ dependencies {
     api 'io.github.lucksiege:camerax:v3.10.4'// simple camerax library (Not necessary)
 
     // BaseRecyclerViewAdapterHelper
-    api "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+    api "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7"
     api "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer:v8.1.4-jitpack"
     api "com.github.youlookwhat:ByWebView:1.0.0"
     api "com.github.PhilJay:MPAndroidChart:v3.1.0"
@@ -158,7 +158,19 @@ dependencies {
     api "com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar"
     api "jsc.kit.wheel:wheel-view:0.5.4"
     api "com.orhanobut:logger:2.2.0"
-    api "com.qw:soulpermission:1.1.8"
+
+    //Android权限适配的更优解决方案：
+    //方法级权限适配、解耦Activity和Fragment、不再需要Context、不再需要onPermissionResult
+    //内部涵盖版本判断，一行代码解决权限相关操作，无需在调用业务方写权限适配代码，继而实现真正调用时请求的“真运行时权限”
+    //接入成本低，代码改动极小，零入侵，仅需要在gradle配置一行代码
+    //支持多项权限同时请求
+    //支持特殊权限(Notification[通知]、SystemAlert[应用悬浮窗]、UNKNOW_SOURCE[未知来源应用安装]、WRITE_SYS_SETTINGS[写入系统设置])的检查与请求
+    //支持系统权限页面跳转
+    //支持debug模式
+    api 'com.github.soulqw:SoulPermission:1.3.1'
+    // 权限请求
+    api 'pub.devrel:easypermissions:3.0.0'
+
     api "com.nex3z:flow-layout:1.3.1"
     api "com.contrarywind:Android-PickerView:4.1.9"
     api "com.aliyun.dpa:oss-android-sdk:2.9.5"
@@ -194,4 +206,6 @@ dependencies {
 
     api "com.airbnb.android:lottie:3.4.0"
     api "pl.droidsonroids.gif:android-gif-drawable:1.2.24"
+
+
 }
